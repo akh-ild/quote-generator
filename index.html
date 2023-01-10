@@ -4,31 +4,28 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Quote generator</title>
-    <link rel="icon" type="image/png" href="https://www.google.com/s2/favicons?domain=jacinto.design">
-    
-    <!-- Old Favicon - Grab Icon From Google (Might be unsupported in the future) -->
-    <!-- <link rel="icon" type="image/png" href="https://s2.googleusercontent.com/s2/favicons?domain=jacinto.design"> -->
+    <link rel="icon" type="image/png" href="favicon.png">
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css"/>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div id="quote-container" class="quote-container">
-        <div class="content">
-            <div class="quote-text">
-                <i class="fas fa-quote-left"></i>
-                <span id="quote" class="long-quote">
-                    Epic poetry exhibits life in some great symbolic attitude. 
-                    It cannot strictly be said to symbolize life itself, but always some manner of life.
-                </span>
-            </div>
-            <div class="quote-author">Lascelles Abercrombie</div>
+        <!-- quote -->
+        <div class="quote-text">
+            <i class="fas fa-quote-left"></i>
+            <span id="quote" class="quote"></span>
         </div>
+        <!-- author -->
+        <div class="quote-author">
+            <span id="author"></span>
+        </div>
+        <!-- buttons -->
         <div class="button-container">
-            <button class="twitter-button">
+            <button id="twitter" class="twitter-button">
                 <i class="fab fa-twitter"></i>
             </button>
-            <button id="twitter " class="new-quote">
+            <button id="new-quote" class="new-quote">
                 New quote
             </button>
         </div>
